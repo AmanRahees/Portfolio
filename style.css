@@ -246,7 +246,7 @@ nav button{
     animation: expert 2s;
 }
 
-@keyframes beginner{ /*animate html skills*/
+@keyframes beginner{ 
 	0%{
 		width: 0%;
 	}
@@ -256,7 +256,7 @@ nav button{
 	}
 }
 
-@keyframes intermediate{ /*animate html skills*/
+@keyframes intermediate{ 
 	0%{
 		width: 0%;
 	}
@@ -266,7 +266,7 @@ nav button{
 	}
 }
 
-@keyframes advanced{ /*animate html skills*/
+@keyframes advanced{ 
 	0%{
 		width: 0%;
 	}
@@ -276,7 +276,7 @@ nav button{
 	}
 }
 
-@keyframes expert{ /*animate html skills*/
+@keyframes expert{ 
 	0%{
 		width: 0%;
 	}
@@ -336,5 +336,15 @@ footer{
     .intBlock .row .card i{
         font-size: 30px;
         margin-top: 15px;
+    }
+    .bars{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: 30px 0;
+    }
+    .skill{
+        width: 100%;
+        margin: 10px;
     }
 }
