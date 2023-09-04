@@ -312,6 +312,7 @@ footer{
         font-size: 26px;
     }
     .banner-content p{
+        margin-top: 20px;
         line-height: 20px;
     }
     .connect{
